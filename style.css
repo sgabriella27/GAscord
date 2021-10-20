@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-left: 10vw;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: #343434;
+}
+
+.logo {
+    height: 9vh;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60vw;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 2vw;
+    background-color: white;
+}
+
+.register a {
+    text-decoration: none;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 0.9vw;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    height: 70vh;
+    background-image: url(assets/background.png);
+}
+
+.backgroundImg1 {
+    height: 60vh;
+    width: 60vw;
+    margin-top: 15vh;
+}
+
+.backgroundImg2 {
+    height: 60vh;
+    width: 60vw;
+    margin-top: 15vh;
+}
+
+.top-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-text h1 {
+    font-size: 3vw;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: white;
+}
+
+.top-text p {
+    width: 35vw;
+    text-align: center;
+    font-size: 1.1vw;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: white;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+    width: 14vw;
+    height: 7vh;
+    border-radius: 2vw;
+    background-color: #343434;
+}
+
+.reliable-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vh;
+    height: 100vh;
+}
+
+.reliable-content h1 {
+    font-size: 2vw;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: black;
+}
+
+.reliable-content p {
+    width: 50vw;
+    text-align: center;
+    font-size: 1.1vw;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: black;
+}
+
+.hanging-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.hanging-content h1 {
+    font-size: 2vw;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: black;
+}
+
+.hanging-content p {
+    font-size: 1vw;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: black;
+    width: 40vw;
+}
+
+.videocallImg {
+    transition: 0.5s;
+}
+
+.videocallImg:hover {
+    transform: scale(1.1);
+}
+
+.voicechannelImg {
+    height: 50vh;
+}
+
+.voicechannelImg:hover {
+    content: url(assets/voicechannel2.svg);
+}
+
+.socmed img {
+    height: 3vh;
+}
+
+.instagram {
+    margin-left: 40vw;
+}
+
+.youtube {
+    margin-left: 1vw;
+}
